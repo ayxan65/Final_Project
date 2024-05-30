@@ -18,3 +18,12 @@
      font-size: 14px;
 
 }
+
+.w{
+    color: rgba(67, 80, 114, 1);
+    
+}
+.w :hover{
+  
+    font-size: 16px;
+}
