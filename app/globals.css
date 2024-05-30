@@ -7,7 +7,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:   Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, 
+
 }
 
 .navbar{
@@ -26,4 +27,16 @@
 .w :hover{
   
     font-size: 16px;
+}
+.bg{
+    background-image: url('../public/bghead.svg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    outline: 0;
+
+    
+}
+.back{
+    background-color: rgb(220, 228, 230);
 }

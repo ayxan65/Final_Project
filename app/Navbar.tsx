@@ -14,7 +14,7 @@ const Navbar = () => {
   <>
     <div className='navbar flex items-center '>
 
-<div  className='px-10 text-white flex justify-between w-full  items-center'>
+<div  className='px-10 text-white flex justify-between w-full  items-center '>
  
 <div className='flex'>
   <Image src={Location} alt='location' className='mr-2'></Image>
