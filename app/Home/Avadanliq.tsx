@@ -10,7 +10,7 @@ const Avadanliq = () => {
       Avadanlıqların Quraşdırılması 
       və Konfiqurasiyası
       </div>
-      <button className='h-10 w-32 border bg-white rounded-md'>Daha Ətraflı
+      <button className='h-10 w-32 border bg-white rounded-md mt-5'>Daha Ətraflı
       
       </button>
 </div>
