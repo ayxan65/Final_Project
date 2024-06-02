@@ -1,5 +1,6 @@
 import React from "react";
-import arrow from '../Home/infoarrow.svg';
+import arrow from '../../public/infoarrow.svg';
+
 
 import Image from "next/image";
 const Avadanliq = () => {
