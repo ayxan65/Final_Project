@@ -15,19 +15,18 @@ const Partnyor = () => {
             Müştərilər
             </div>
             <div className='flex justify-between w-[70%] flex-wrap '>
-                <Image className='mx-10' src={vertiv} alt='vertiv'></Image>
-                <Image className='mx-10' src={glossel} alt='glossel'></Image>
-                <Image className='mx-10' src={deo} alt='deo'></Image>
-                <Image className='mx-10' src={delta} alt='delta'></Image>
-                <Image className='mx-10 my-5' src={dealom} alt='auto'></Image>
-                <Image className='mx-10 my-5' src={delta} alt='auto'></Image>
-                <Image className='mx-10 my-5' src={auto} alt='auto'></Image>
-                <Image src={glossel} alt='thing '  className='mx-10 my-5'></Image>
+                <Image  src={vertiv} alt='vertiv'></Image>
+                <Image  src={glossel} alt='glossel'></Image>
+                <Image  src={deo} alt='deo'></Image>
+                <Image  src={delta} alt='delta'></Image>
                 
-                {/* <Image src={auto} alt='auto'></Image>
-                <Image src={auto} alt='auto'></Image>
-                <Image src={auto} alt='auto'></Image>
-                <Image src={auto} alt='auto'></Image> */}
+             <div className='w-[100%] flex justify-between '>
+             <Image className=' my-5' src={dealom} alt='auto'></Image>
+                <Image className=' my-5 relative left-5 ' src={delta} alt='auto'></Image>
+                <Image className=' my-5 relative left-5' src={auto} alt='auto'></Image>
+                <Image src={glossel} alt='thing '  className=' my-5'></Image>
+             </div>
+               
 
                 
 
