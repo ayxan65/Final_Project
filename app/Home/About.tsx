@@ -17,7 +17,7 @@ const About = () => {
   
   <div className='text-white  w-4/5  text-xl  flex justify-center leading-loose'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ullamcorper ipsum mattis sed. Auctor proin in felis, nulla porta. Elementum, pharetra, egestas non vulputate eget odio elementum. Mauris felis nisi, consequat non diam egestas ac in diam. Arcu et risus tortor, sollicitudin. Ultrices sed ac lobortis at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ullamcorper ipsum mattis sed. Auctor proin in felis, nulla porta. Elementum, pharetra, egestas non vulputate eget odio elementum. Mauris felis nisi, consequat non diam egestas ac in diam. Arcu et risus tortor, sollicitudin. Ultrices sed ac lobortis at.</div>
 
-  <button className='w-36 h-12 bg-white rounded-lg text-primary flex justify-center items-center mt-5  '>Ətraflı
+  <button className='w-36 h-12 bg-white rounded-lg text-primary flex justify-center items-center relative top-6  '>Ətraflı
   <Image className='ml-4' src={arrow} alt='arrow'></Image>
   </button>
   </div>
