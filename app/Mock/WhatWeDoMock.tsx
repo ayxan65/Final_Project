@@ -51,7 +51,7 @@ const WhatWeDoMock = () => {
                         <div className="my-4 text-primary font-semibold text-2xl">{title}</div>
                         <div>{desc}</div>
                     </div>
-                    <div id="foot" className="w-full h-8 bg-primary rounded-xl mt-4 self-end ">
+                    <div id="foot" className="w-full h-8 bg-white rounded-xl mt-4 self-end ">
                     </div>
                 </div>
             ))}
