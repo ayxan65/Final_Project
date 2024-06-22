@@ -65,8 +65,10 @@
 }
 #foot{
     inset: 0;
+    
 
 }
+
 #foot:hover{
    visibility: visible;
 }
