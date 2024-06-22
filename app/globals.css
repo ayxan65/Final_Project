@@ -45,3 +45,28 @@
     width: 100%;
     height: 600px;
 }
+
+.bgproducts {
+    background-image: url('../public/BackGrounds/bgproducts.svg');
+    width: 100%;
+    height: 700px;
+
+}
+.css-juc{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-WhatWeDo{
+    background-image: url('../public/WhatWeDo/bg.svg');
+    width: 100%;
+    /* height: 700px; */
+}
+#foot{
+    inset: 0;
+
+}
+#foot:hover{
+   visibility: visible;
+}

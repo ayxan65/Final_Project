@@ -1,8 +1,7 @@
 import React from "react";
 import arrow from '../../public/infoarrow.svg';
-
-
 import Image from "next/image";
+
 const Avadanliq = () => {
   return (
     <div className="w-full  back">
@@ -18,6 +17,7 @@ const Avadanliq = () => {
           </button>
         </div>
       </div>
+      
     </div>
   );
 };
