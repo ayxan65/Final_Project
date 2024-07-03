@@ -5,6 +5,7 @@ import About from './About';
 import Partnyor from './Partnyor';
 import HomeSlider from './HomeSlider';
 import WhatWeDo from './WhatWeDo';
+import Brands from './Brands';
 
 
 
@@ -16,7 +17,7 @@ const page = () => {
     <Partnyor/>
     <HomeSlider/>
     <WhatWeDo/>
-    
+    <Brands/>
   
     
      

@@ -76,3 +76,7 @@
          }
     
 }
+
+.bg-brands{
+    background-image: url('../public/BackGrounds/bgBrands.svg');
+}
