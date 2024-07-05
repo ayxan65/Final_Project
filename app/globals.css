@@ -129,5 +129,11 @@ button.next {
 
 .bg-form {
     background-image: url('../public/BackGrounds/bgAbout.svg');
-    height: 600px;
+    height: 550px;
 }
+textarea{
+    height: 230px;
+    width: 400px;
+    resize: none;
+}
+
