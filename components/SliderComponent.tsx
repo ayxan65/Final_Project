@@ -1,63 +1,45 @@
-// // components/MuiSwiperComponent.js
-// import React from 'react';
-// import { Box, Typography } from '@mui/material';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.css';
-// import SwiperCore from 'swiper';
-// import { Navigation } from 'swiper/modules';
-// import { Pagination } from 'swiper/modules';
-// // Initialize Swiper modules
-// SwiperCore.use([Navigation, Pagination]);
+"use client"
+import React, { useState } from 'react';
+import Image from 'next/image';
+// import './Slider.css';
+import image1 from '../public/Galery/image1.svg';
+import image2 from '../public/Galery/image2.svg';
+import image3 from '../public/Galery/image3.svg';
+import image4 from '../public/Galery/image4.svg';
 
-// const MuiSwiperComponent = () => {
-//   return (
-//     <Box sx={{ width: '100%', maxWidth: 800, margin: 'auto', mt: 5 }}>
-//       <Typography variant="h4" align="center" gutterBottom>
-//         Məhsullar
-//       </Typography>
-//       <Swiper
-//         spaceBetween={50}
-//         slidesPerView={1}
-//         navigation
-//         pagination={{ clickable: true }}
-//         style={{ paddingBottom: '2rem' }}
-//       >
-//         <SwiperSlide>
-//           <Box textAlign="center">
-//             <img src="/images/slide1.png" alt="Slide 1" style={{ width: '100%', height: 'auto' }} />
-//             <Typography variant="h6" gutterBottom>
-//               DC Power Systems
-//             </Typography>
-//             <Typography variant="body1">
-//               Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable, and flexible DC power systems.
-//             </Typography>
-//           </Box>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//           <Box textAlign="center">
-//             <img src="/images/slide2.png" alt="Slide 2" style={{ width: '100%', height: 'auto' }} />
-//             <Typography variant="h6" gutterBottom>
-//               DC Power Systems
-//             </Typography>
-//             <Typography variant="body1">
-//               Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable, and flexible DC power systems.
-//             </Typography>
-//           </Box>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//           <Box textAlign="center">
-//             <img src="/images/slide3.png" alt="Slide 3" style={{ width: '100%', height: 'auto' }} />
-//             <Typography variant="h6" gutterBottom>
-//               DC Power Systems
-//             </Typography>
-//             <Typography variant="body1">
-//               Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable, and flexible DC power systems.
-//             </Typography>
-//           </Box>
-//         </SwiperSlide>
-//       </Swiper>
-//     </Box>
-//   );
-// };
 
-// export default MuiSwiperComponent;
+const Slider = () => {
+    const [slideIndex, setSlideIndex] = useState(0);
+    const images = [image1, image2, image3, image4];
+        
+    const moveSlide = (n:number) => {
+        let newIndex = slideIndex + n;
+        if (newIndex >= images.length) {
+            newIndex = 0;
+        } else if (newIndex < 0) {
+            newIndex = images.length -1
+        }
+        setSlideIndex(newIndex);
+    };
+
+    return (
+        <div className="slider">
+            <div
+                className="slider-container"
+                style={{ transform: `translateX(-${slideIndex * 100}%)` }}
+            >
+                {images.map((image, index) => (
+                    <Image src={image} alt={`Slide ${index}`} key={index}></Image>
+                ))}
+            </div>
+            <button className="prev" onClick={() => moveSlide(-1)}>
+                &#10094;
+            </button>
+            <button className="next" onClick={() => moveSlide(1)}>
+                &#10095;
+            </button>
+        </div>
+    );
+};
+
+export default Slider;

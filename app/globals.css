@@ -80,3 +80,54 @@
 .bg-brands{
     background-image: url('../public/BackGrounds/bgBrands.svg');
 }
+.slider {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-container img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+button.prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+button.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border:none ;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+.bg-form {
+    background-image: url('../public/BackGrounds/bgAbout.svg');
+    height: 600px;
+}
