@@ -8,6 +8,7 @@ import WhatWeDo from './WhatWeDo';
 import Brands from './Brands';
 import Galery from './Galery';
 import Form from './Form';
+import Footer from './Footer';
 
 
 
@@ -22,6 +23,7 @@ const page = () => {
     <Brands/>
     <Galery/>
     <Form/>
+    <Footer/>
   
     
      

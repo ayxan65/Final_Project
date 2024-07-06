@@ -136,4 +136,24 @@ textarea{
     width: 400px;
     resize: none;
 }
-
+.footer{
+    background-image: url('../public/BackGrounds/footerbg.svg');
+    height: 460px;
+}
+ ul li::marker{
+    content: "▶";
+ }
+ ul li{
+    margin-top: 20px;
+    color: #fff;
+    opacity: .7;
+ }
+ ul li:hover{
+    opacity: 1;
+ }
+ul li:first-child{
+    margin-top: 40px;
+}
+.location{
+    opacity: .7;
+}
