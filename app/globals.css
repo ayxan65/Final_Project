@@ -157,3 +157,7 @@ ul li:first-child{
 .location{
     opacity: .7;
 }
+
+.bg-class{
+    background-image: url('../public/AboutPage/Backgrounds/bg1.svg');
+}
