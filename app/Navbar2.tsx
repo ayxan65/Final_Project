@@ -8,7 +8,7 @@ const Navbar2 = () => {
   return (
     <div className='px-20 flex items-center justify-between w-full h-28'>
 
-        <Image src={Netpro} alt='logo'></Image>
+       <Link href='/Home'> <Image src={Netpro} alt='logo'></Image></Link>
      <div className=' w  ml-20 flex justify-between items-center w-full  font-bold'>
      <div className='flex'>
           <Image src={arrow} alt='arrow' className='mr-2'></Image>

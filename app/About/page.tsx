@@ -7,7 +7,7 @@ import Footer from '../Home/Footer';
 const page = () => {
   return (
     <div>
-        <About/>
+        <About ilk='Haqqımzda' basliq='Əsas Səhifə' desc='Haqqımızda' />
         <Section1/>
         <Section2/>
         <Footer/>

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../app/Navbar";
 import Navbar2 from "@/app/Navbar2";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +20,7 @@ export default function RootLayout({
       <title>NetPro group</title>
 
       <body className={inter.className}>
-        <Navbar/>
+        
         <Navbar2/>
         {children}</body>
     </html>

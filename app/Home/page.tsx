@@ -14,7 +14,7 @@ import Footer from './Footer';
 
 const page = () => {
   return (
-    <>
+    <div >
     <Avadanliq/>
     <About/>
     <Partnyor/>
@@ -27,7 +27,7 @@ const page = () => {
   
     
      
-    </>
+    </div>
   )
 }
 

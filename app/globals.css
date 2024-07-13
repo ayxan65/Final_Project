@@ -65,17 +65,7 @@
 }
 
 
-#card:hover{
-    position: relative;
-    bottom: 15px ;
-    transform: 1s;
-   
-        #foot{
-            transition: 0.7s;
-            background-color: rgba(67, 80, 114, 1);
-         }
-    
-}
+
 
 .bg-brands{
     background-image: url('../public/BackGrounds/bgBrands.svg');

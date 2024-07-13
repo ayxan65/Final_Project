@@ -12,7 +12,8 @@ const config: Config = {
        'secondary':'rgba(96, 111, 132, 1)',
        'white':'#fff',
         'red':'red',
-        'gray':'gray'
+        'gray':'gray',
+        'stone':'rgba(212, 218, 234, 1)'
     },
     extend: {
       backgroundImage: {
