@@ -13,7 +13,9 @@ const config: Config = {
        'white':'#fff',
         'red':'red',
         'gray':'gray',
-        'stone':'rgba(212, 218, 234, 1)'
+        'stone':'rgba(252, 252, 252, 1)',
+        'grey':'rgba(224, 225, 225, 1)'
+        
     },
     extend: {
       backgroundImage: {
