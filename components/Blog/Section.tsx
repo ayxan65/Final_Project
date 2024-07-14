@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import photo1 from '../../public/Blog/photo1.svg';
 import photo2 from '../../public/Blog/photo2.svg';
 import photo3 from '../../public/Blog/photo3.svg';
@@ -13,7 +14,17 @@ const Section = () => {
   return (
     <div className='w-[92vw] m-auto flex flex-col items-center'>
     <div className=' my-6 font-bold text-primary text-3xl'>Qalereya</div>
-<Image alt='photo' src={photo1}></Image>
+  <div className='flex flex-wrap'>
+  <Image alt='photo' src={photo1}></Image>
+    <Image alt='photo' src={photo3}></Image>
+    <Image alt='photo' src={photo4}></Image>
+    <Image alt='photo' src={photo5}></Image>
+    <Image alt='photo' src={photo6}></Image>
+    <Image alt='photo' src={photo7}></Image>
+    <Image alt='photo' src={photo8}></Image>
+    <Image alt='photo' src={photo1}></Image>
+  </div>
+   
 
     </div>
   )
