@@ -8,11 +8,11 @@ const Navbar2 = () => {
   return (
     <div className='px-20 flex items-center justify-between w-full h-28'>
 
-       <Link href='/Home'> <Image src={Netpro} alt='logo'></Image></Link>
+       <Link href='/'> <Image src={Netpro} alt='logo'></Image></Link>
      <div className=' w  ml-20 flex justify-between items-center w-full  font-bold'>
      <div className='flex'>
           <Image src={arrow} alt='arrow' className='mr-2'></Image>
-          <div><Link href='Home'>Əsas səhifə</Link></div>
+          <div><Link href='/'>Əsas səhifə</Link></div>
           
         </div>
         <div className='flex'>
@@ -27,7 +27,7 @@ const Navbar2 = () => {
         </div>
         <div className='flex'>
           <Image src={arrow} alt='arrow' className='mr-2'></Image>
-          <div><Link href='services'>Xidmətlər və Həllər</Link></div>
+          <div><Link href='ServicePage'>Xidmətlər və Həllər</Link></div>
           
         </div>
         <div className='flex'>

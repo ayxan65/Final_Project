@@ -13,7 +13,7 @@ import Map from '../../components/Map';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer '>
      <div className='p-12 flex footer-border '>
      <div className='p-6'>
         <Image src={NetPro} alt='logo'></Image>
