@@ -15,7 +15,8 @@ const config: Config = {
         'gray':'gray',
         'stone':'rgba(252, 252, 252, 1)',
         'grey':'rgba(224, 225, 225, 1)',
-        'third':'rgba(244, 244, 244, 1)'
+        'third':'rgba(244, 244, 244, 1)',
+        'fourth':'rgba(243, 243, 243, 1)'
         
     },
     extend: {

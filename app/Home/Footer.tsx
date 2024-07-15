@@ -23,10 +23,10 @@ const Footer = () => {
         <div className='text-white text-[28px] font-semibold'>Saytın xəritəsi</div>
         <ul>
           <li><Link href={'/'}>Əsas səhifə</Link></li>
-          <li><Link href={'/Contact'}>Haqqımızda</Link></li>
-          <li><Link href={'/Contact'}>Məhsullar</Link></li>
-          <li><Link href={'/Contact'}>Xidmətlər və Həllər</Link></li>
-          <li><Link href={'/Contact'}>Qalereya və Bloq</Link></li>
+          <li><Link href={'/About'}>Haqqımızda</Link></li>
+          <li><Link href={'/product'}>Məhsullar</Link></li>
+          <li><Link href={'/ServicePage'}>Xidmətlər və Həllər</Link></li>
+          <li><Link href={'/Blog'}>Qalereya və Bloq</Link></li>
           <li><Link href={'/Contact'}>Əlaqə</Link></li>
         </ul>
 

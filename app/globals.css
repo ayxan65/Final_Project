@@ -151,3 +151,7 @@ ul li:first-child{
 .bg-class{
     background-image: url('../public/AboutPage/Backgrounds/bg1.svg');
 }
+
+.bg-contact{
+    background-image:url('../public/BackGrounds/contactbg.svg') ;
+}
