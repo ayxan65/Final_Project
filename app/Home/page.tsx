@@ -14,7 +14,7 @@ import Footer from './Footer';
 
 const page = () => {
   return (
-    <div >
+    <div className='w-[100%]' >
     <Avadanliq/>
     <About/>
     <Partnyor/>
@@ -27,7 +27,7 @@ const page = () => {
   
     
      
-    </div>
+    </div >
   )
 }
 

@@ -6,14 +6,13 @@ import Link from 'next/link';
 import Border from '../../public/border.svg';
 import phone from '../../public/phone.svg';
 import email from '../../public/email.svg';
-import borderbottom from '../../public/footer/borderbottom.svg';
 import location from '../../public/logo/location.svg';
 import Map from '../../components/Map';
 
 
 const Footer = () => {
   return (
-    <div className='footer '>
+    <div className='footer'>
      <div className='p-12 flex footer-border '>
      <div className='p-6'>
         <Image src={NetPro} alt='logo'></Image>
@@ -37,23 +36,27 @@ const Footer = () => {
           Əlaqə
           </div>
           <div className='mt-5'><Image src={phone} alt='phone' ></Image></div>
-          <div className='mt-5'><Image src={email} alt='email'></Image></div>
+          <div className='mt-5 text-white flex font-bold'><Image  src={email} alt='email'></Image><div className='ml-5'><div>Email</div>
+          <div className='text-grey font-normal'>info@netpro</div>
+            </div></div>
          </div>
          <div>
-         <div className='flex'>
+         <div className='flex ml-10'>
          <Image src={location} width={20} height={25} alt='location'></Image>
          <div className='ml-3 font-semibold text-white text-[18px]'>Ünvan</div>
 
          </div>
-         <div className=' location text-white w-[300px] mt-5'>
+        <div className='ml-10'>
+        <div className=' location text-white w-[300px] mt-5'>
          Fəzail Bayramov küç., 1156, Xətai ray., Bakı, Azərbaycan, AZ1025
          </div>
 
           <Map/>
+        </div>
          </div>
+  
      </div>
       
-       <Image className='ml-12 ' src={borderbottom} alt='br'></Image>
     </div>
   )
 }
