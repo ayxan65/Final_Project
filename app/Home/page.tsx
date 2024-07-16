@@ -1,14 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
-import Avadanliq from './Avadanliq';
-import About from './About';
-import Partnyor from './Partnyor';
-import HomeSlider from './HomeSlider';
-import WhatWeDo from './WhatWeDo';
-import Brands from './Brands';
-import Galery from './Galery';
-import Form from './Form';
-import Footer from './Footer';
+import Avadanliq from '../../components/home/Avadanliq';
+import About from '../../components/home/About';
+import Partnyor from '../../components/home/Partnyor';
+import HomeSlider from '../../components/home/HomeSlider';
+import WhatWeDo from '../../components/home/WhatWeDoMock';
+import Brands from '../../components/home/Brands';
+import Galery from '../../components/home/Galery';
+import Form from '../../components/home/Form';
+import Footer from '../../components/home/Footer';
 
 
 

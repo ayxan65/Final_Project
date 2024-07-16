@@ -7,7 +7,7 @@ import Border from '../../public/border.svg';
 import phone from '../../public/phone.svg';
 import email from '../../public/email.svg';
 import location from '../../public/logo/location.svg';
-import Map from '../../components/Map';
+import Map from '../Map';
 
 
 const Footer = () => {

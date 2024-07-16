@@ -4,8 +4,9 @@ import React from 'react'
 
 
 const Form = () => {
-
+  
   return (
+  <>
     <div className='bg-form'>
         <div className='flex justify-center '>
            <div className='flex flex-col items-center'>
@@ -23,7 +24,10 @@ const Form = () => {
           </div>
       <Button/>
     </div>
+
+  </>
   )
+  
 }
 
 export default Form

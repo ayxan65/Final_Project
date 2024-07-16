@@ -1,5 +1,5 @@
 import React from 'react'
-import WhatWeDoMock from '../Mock/WhatWeDoMock'
+import WhatWeDoMock from '../home/WhatWeDoMock';
 
 const WhatWeDo = () => {
   return (
