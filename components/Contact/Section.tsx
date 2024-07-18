@@ -16,7 +16,7 @@ const handleSubmit = (e:any) => {
   if (!name || !message || !email || !phone) {
     Swal.fire({
       icon: "error",
-      title: "Xətaa",
+      title: "Xəta",
       text: "Boş xanaları doldurun",
       
     });
