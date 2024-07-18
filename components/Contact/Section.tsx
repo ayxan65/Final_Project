@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import Image from 'next/image';
 import ContactMock from '@/app/Mock/ContactMock';
 
 const Section = () => {
@@ -16,15 +15,15 @@ const Section = () => {
            <div className='ml-12 mt-2 text-3xl font-bold text-primary'>Suallarınız var?</div>
            <div className='text-primary ml-12 mt-2'>Formu doldurun. Yaxın zamanda sizinlə əlaqə saxlayacayıq.</div>
       <div className=' ml-10 mt-6 w-[420px]'>
-      <input  placeholder='Adınız və Soyadınız' className=' h-[50px] outline-none my-2 rounded-lg w-[420px]   p-4  bg-fourth mx-2 out border-grey' type="text" />
-           <input placeholder='Email ünvanı' className='h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey' type="text" />
-           <input placeholder='Əlaqə nömrəsi' className='h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey' type="text" />
-           <textarea name="" id="" className='bg-fourth w-[420px] h-[200px] my-2 p-4 outline-none rounded-lg mx-2 border-grey' placeholder='mesajınız  '></textarea>
+      <input id='1'  placeholder='Adınız və Soyadınız' className=' h-[50px] outline-none my-2 rounded-lg w-[420px]   p-4  bg-fourth mx-2 out border-grey' type="text" />
+           <input id='2' placeholder='Email ünvanı' className='h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey' type="text" />
+           <input id='3' placeholder='Əlaqə nömrəsi' className='h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey' type="text" />
+           <textarea name="" id="4" className='bg-fourth w-[420px] h-[200px] my-2 p-4 outline-none rounded-lg mx-2 border-grey' placeholder='mesajınız  '></textarea>
            <button onClick={(()=>{
                alert("müracietiniz qebul edildi sizinle tez bir zamanda elaqe saxlanılacaq")
            })} className='mx-2 mt-3 mb-5 bg-primary rounded text-white px-4 py-2 w-[130px]'>Göndər</button>
       </div>
-          
+         
            </div>
           
        </div>
