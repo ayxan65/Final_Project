@@ -2,6 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import ContactMock from "@/app/Mock/ContactMock";
+import Swal from "sweetalert2";
 
 const Section = () => {
 const [name, setname] = useState('');
@@ -13,9 +14,21 @@ const handleSubmit = (e:any) => {
   e.preventDefault();
   
   if (!name || !message || !email || !phone) {
-    alert('Boş xanaları doldurun');
-  } else{
-    alert('müraciətiniz qeydə alındı.')
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Boş xanaları doldurun",
+      
+    });
+  }
+   else{
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: "Müraciətiniz qeydə alındı",
+      showConfirmButton: false,
+      timer: 1500
+    });
   }
 };
 
@@ -46,14 +59,14 @@ const handleSubmit = (e:any) => {
             onChange={(e:any)=>{setemail(e.target.value)}}
              placeholder="Email ünvanı"
              className="h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey"
-             type="text"
+             type="email"
            />
            <input
             value={phone}
             onChange={(e:any)=>{setphone(e.target.value)}}
              placeholder="Əlaqə nömrəsi"
              className="h-[50px] outline-none rounded-lg my-2 w-[420px] p-4 bg-fourth mx-2 out border-grey"
-             type="text"
+             type="phone"
            />
            <textarea
             value={message}
