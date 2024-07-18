@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../About/About';
+import About from '../../components/About/About';
 import Section1 from '@/components/ServicePage/Section1';
 
 

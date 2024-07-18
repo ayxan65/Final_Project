@@ -1,4 +1,4 @@
-import Footer from '@/app/Home/Footer'
+import Footer from '@/components/home/Footer'
 import ServiceMock from '@/app/Mock/ServiceMock'
 import React from 'react'
 

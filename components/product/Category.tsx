@@ -1,6 +1,6 @@
 import React from 'react'
 import Vertiv from './Vertiv'
-import Footer from '@/app/Home/Footer'
+import Footer from '@/components/home/Footer'
 
 const Category = () => {
   return (
