@@ -14,7 +14,7 @@ import Footer from '../../components/home/Footer';
 
 const page = () => {
   return (
-    <div className='w-[100%]' >
+    <div  >
     <Avadanliq/>
     <About/>
     <Partnyor/>
