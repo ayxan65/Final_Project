@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Avadanliq = () => {
   return (
-    <div className="w-full  back">
+    <div className=" lg:w-full  back">
       {" "}
       <div className="flex justify-end w-full pl-20">
         <div className="bg w-full ">

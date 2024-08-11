@@ -7,6 +7,8 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+   
+
     colors:{
        'primary':'rgba(67, 80, 114, 1)',
        'secondary':'rgba(96, 111, 132, 1)',
@@ -16,7 +18,8 @@ const config: Config = {
         'stone':'rgba(252, 252, 252, 1)',
         'grey':'rgba(224, 225, 225, 1)',
         'third':'rgba(244, 244, 244, 1)',
-        'fourth':'rgba(243, 243, 243, 1)'
+        'fourth':'rgba(243, 243, 243, 1)',
+        "black":"black"
         
     },
     extend: {

@@ -4,12 +4,13 @@ import Image from 'next/image';
 import arrow from '../public/logo/arrow.svg';
 import search from '../public/logo/search.svg';
 import Link from 'next/link';
+import Search from '../app/SearchBar'
 const Navbar2 = () => {
   return (
-    <div className='px-20 flex items-center justify-between w-full h-28'>
+    <div className='flex px-20  items-center justify-between w-full h-28   '>
 
        <Link href='/'> <Image src={Netpro} alt='logo'></Image></Link>
-     <div className=' w  ml-20 flex justify-between items-center w-full  font-bold'>
+     <div className=' w  ml-20 flex justify-between items-center w-full font-bold'>
      <div className='flex'>
           <Image src={arrow} alt='arrow' className='mr-2'></Image>
           <div><Link href='/'>Əsas səhifə</Link></div>
@@ -40,7 +41,7 @@ const Navbar2 = () => {
           <div><Link href='/Contact'>Əlaqə</Link></div>
           
         </div>
-        <Image src={search} alt=''></Image>
+        <div className='mb-7 '><Search/></div>
         
 
         
