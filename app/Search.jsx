@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import search from '../public/logo/search.svg';
+import { TextField } from '@mui/material';
 
 const SearchBar = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -24,27 +25,29 @@ const SearchBar = ({ data }) => {
      </button>
 
      {isOpen && (
-       <div className="mt-4">
+       <div className="mt-4 ">
          <input
            type="text"
-           className="w-full p-2 border border-gray-300 rounded"
+           className="w-full p-2 border border-gray rounded sticky"
            placeholder="Search..."
            value={searchTerm}
            onChange={(e) => setSearchTerm(e.target.value)}
-         />
+        /> 
          {searchTerm && (
-           <ul className="">
-             {filteredData.length > 0 ? (
+           <ul>
+            <div className='bg-white'>
+            {filteredData.length > 0 ? (
                filteredData.map((item, index) => (
-                 <li key={index} className="p-2 border-b text-gray">
+                 <li key={index} className="p-2 border-b text-primary ">
                    <Link href={item.link}>
                    {item.name}
                    </Link>
                  </li>
                ))
              ) : (
-               <li className="p-2 text-gray-500">No results found</li>
+               <li className="p-2 text-gray">No results found</li>
              )}
+            </div>
            </ul>
          )}
        </div>
